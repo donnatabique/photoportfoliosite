@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+<head>
+    <meta name="robots" content="noindex,nofollow" />
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link type="text/css" rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="../stylesheets/photoportfolioss.css" />
+    
+    <link type="image/png" rel="icon" href="images/DTFavicon.png">
+    
+    <!-- web page title -->
+    <title>Donna Tabique Photography</title>
+</head>
+
+<body>
+    <header>
+        <p>Donna Tabique Photography</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="../index.htm">Home</a> </li>
+            <li><a href="portraits.html">Portfolio</a> </li>
+            <li><a href="about.html">About</a> </li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="contact.html">Contact</a> </li>
+        </ul>
+    </nav>
+     
+    <main>
+        
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script>
+
+        $.preloadImages = function() {
+          for (var i = 0; i < arguments.length; i++) {
+            $("<img />").attr("src", "images/"+arguments[i]);
+          }
+        }
+        </script>
+        
+        <div class="container-fluid pricing">
+            <div class="row">
+                
+                <div class="col-sm-4 thumbnail">
+                    <img src="images/photoshootspricing.jpg" alt="photoshoots"/><br/><br/>
+                    <p class="text-center uppercase">Photoshoots</p>
+                    
+                    <p> Headshots: $300 <br/>
+                        Portraits $100 <br/>
+                        Couples: $200 <br/>
+                        Commercial (Buildings/Ads): $250 <br/>
+                    </p>
+                </div>
+                
+                <div class="col-sm-4 thumbnail">
+                    <img src="images/travelpricing.jpg" alt="travel"/><br/><br/>
+                    <p class="text-center uppercase">Travel Photos</p>
+                    <p> Personal Use: $25 <br/>
+                        Commercial Use: $50 <br/>
+                        Art Print on Canvas: $50 <br/>
+                    </p>
+                </div>
+        
+                <div class="col-sm-4 thumbnail">
+                     <img src="images/packagespricing.jpg" alt="packages"/><br/><br/>
+                    <p class="text-center uppercase">Packages</p>
+                    <p class="bold-italic"> Package 1: $300</p>
+                        <ul>
+                            <li>1 hour photoshoot</li>
+                            <li>1 disc of edited pictures (Additional discs are $10)</li>
+                            <li>A file of unedited pictures</li>
+                        </ul>
+                    <p class="bold-italic">Package 2: $350</p>
+                        <ul>
+                            <li>2 hours photoshoot</li>
+                            <li>2 discs of edited pictures (Additional discs are $10) </li>
+                            <li>A file of unedited pictures</li>
+                        </ul>
+                
+                </div>
+            </div>
+        </div>
+    </main>
+    
+</body>    
+    
+</html>
